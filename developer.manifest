@@ -1,0 +1,18 @@
+CACHE manifest
+#2022-05-21
+
+CACHE:
+index.html
+info.html
+style.css
+image/background.png
+
+# Require the user to be online.
+NETWORK:
+login.php
+
+
+
+# offline.html will be served in place of all other .html files
+FALLBACK:
+*.html offline.html
